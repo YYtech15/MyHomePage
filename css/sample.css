@@ -1,0 +1,36 @@
+figure{
+    width:auto;
+    height:auto;
+    display: inline-block
+}
+
+figure img{
+    width: 250px;
+    height: 175px;
+}
+
+figure.hover-parent {
+    position: relative;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+figcaption.hover-mask {
+    width: 250px;
+    height: 175px;
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    opacity: 0;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    padding: 30% 25%;
+
+    opacity: 1;
+    transition:all 0.6s ease;
+    top: -100%;
+}
+
+figure.hover-parent:hover .hover-mask {
+    top: 0;
+}
