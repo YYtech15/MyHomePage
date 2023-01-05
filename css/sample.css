@@ -18,13 +18,14 @@ figure.hover-parent {
 figcaption.hover-mask {
     width: 250px;
     height: 175px;
+    font-size: 20px;
     position: absolute;
     background: rgba(0,0,0,0.5);
     opacity: 0;
     color: #fff;
     text-align: center;
     margin: auto;
-    padding: 30% 25%;
+    padding: 30% 0%;
 
     opacity: 1;
     transition:all 0.6s ease;
