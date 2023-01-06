@@ -1,33 +1,44 @@
+body {
+    background-image: url("/img/water.jpg");
+    background-size: cover;
+}
+
 .title{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     color: blue;
+    text-align: center;
     padding: 10px 10px 0px 10px;
     margin-bottom: 0px;
 }
 
-.box1{
+.box1, .box2{
     width: 100%;
     height: 100%;
     letter-spacing:-.4em;
     font-size: 0;
-    padding: 10px;
-}
-
-figure{
-    width:25%;
-
-    display: inline-block;
+    padding: 5px 40px;
 }
 
 figure img{
     width: 100%;
     height: 100%;
-    aspect-ratio: 3 / 2;
+    aspect-ratio: 4 / 3;
     margin: 0;
 }
 
-figure.hover-parent {
+figure.hover-parent img{
+    border-radius: 50px;
+}
+
+figure.hover-parent-2 img{
+    border-radius: 50%;
+}
+
+figure.hover-parent, figure.hover-parent-2{
+    width:33%;
+    display: inline-block;
+    margin: 0;
     position: relative;
     margin-bottom: 0px;
     overflow: hidden;
@@ -36,16 +47,35 @@ figure.hover-parent {
 figcaption.hover-mask {
     width: 100%;
     height: 100%;
-    aspect-ratio: 3 / 2;
+    aspect-ratio: 4 / 3;
 
-    font-size: 20px;
+    font-size: 30px;
     position: absolute;
     background: rgba(0,0,0,0.5);
     opacity: 0;
     color: #fff;
     text-align: center;
     margin: auto;
-    padding: 28% 0%;
+    padding: 33% 0%;
+
+    opacity: 1;
+    transition:all 0.6s ease;
+    top: -200%;
+}
+
+figcaption.hover-mask-2 {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 4 / 3;
+    
+    font-size: 30px;
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    opacity: 0;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    padding: 33% 0%;
 
     opacity: 1;
     transition:all 0.6s ease;
@@ -53,5 +83,11 @@ figcaption.hover-mask {
 }
 
 figure.hover-parent:hover .hover-mask {
+    border-radius: 50px;
+    top: 0;
+}
+
+figure.hover-parent-2:hover .hover-mask {
+    border-radius: 50%;
     top: 0;
 }
