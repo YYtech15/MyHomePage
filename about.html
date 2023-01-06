@@ -2,41 +2,70 @@
 
 <html lang="ja">
     <head>
+        <meta charset="utf-8">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-        <link href="./style.css" rel="stylesheet">
-        <title>My Webpage</title>
+        <link href="/css/style2.css" rel="stylesheet">
+        <title>About</title>
     </head>
     <body>
         <header>
             <ul class="menu">
-                <img src="/img/main.jpg" class="logo">
-                <li>CONTACT</li>
-                <li>PRODUCTS</li>
-                <li>ABOUT</li>
-                <li>WORK</li>
+                <a href="index.html">
+                    <img src="/img/logo/logo1.png" class="logo">
+                </a>
+                <a href="./contact.html"><li>CONTACT</li></a>
+                <a href="./about.html"><li>ABOUT</li></a>
+                <a href="./product.html"><li>PRODUCTS</li></a>
             </ul>
         </header>
 
         <main>
             <div>
                 <div class="right_box">
-                    <h3>CONTACT</h3>>
-                    <p class="contents">
-                        midori1140flower@gmail.com
-                    </p>
+                    <h3>CONTACT</h3>
+                    <p class="title_list">メールアドレス</p>
+                    <p class="contents-1">midori1140flower@gmail.com</p>
 
                     <p class="title_list">SNSアカウント</p>
-                    <p class="contents">
-                        <a href="">Twitter</a>
-                        <a href="">Instagram</a>
-                        <a href="">Github</a>
-                        <a href="">Qiita</a>
+                    <p>
+                        <ul class="contents-2">
+                            <li><img src="/img/logo/twitter.png" class="logo-2"><a href="">Twitter</a></li>
+                            <li><img src="/img/logo/Instagram.png" class="logo-2"><a href="">Instagram</a></li>
+                            <li><img src="/img/logo/github-mark.png" class="logo-2"><a href="">Github</a></li>
+                            <li><img src="/img/logo/qiita.png" class="logo-2"><a href="">Qiita</a></li>
+                        </ul>
                     </p>
-
                 </div>
                 <div class="left_box">
-                    <p class="title">自己紹介</p>
+                    <p class="title">About</p>
+                    <div class="description">
+                        <div class="career">
+                            愛知県で理系の大学生をしています。<br>
+                            大学1年からUnityでゲーム開発を始める。<br>
+                            大学3年秋からCodeGymAcademyに入学。<br>
+                        </div>
+                        <img src="/img/game/pokemon2.jpg" class="profile">
+                        <div class="skill">
+                            <p class="title-2">スキルスタック</p>
+                            HTML,CSS,JavaScript,Python,C,C#,Java,Unity,Git
+
+                        </div>
+                        <div class="qualification">
+                            <p class="title-2">保有資格</p>
+                            <ul>
+                                <li>実用英語技能検定２級</li>
+                                <li>Python基礎認定試験</li>
+                                <li>TOEIC 700↑</li>
+                                <li>G検定</li>
+                                <li>基本情報技術者</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="hobby">
+
+                    </div>
                     
                 </div>
             </div>

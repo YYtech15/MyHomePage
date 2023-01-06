@@ -1,43 +1,61 @@
 .logo{
-    width: 300px;
-    height: 80px;
+    width: 250px;
+    height: 60px;
+    float: left;
+    margin: 10px;
+}
+
+.logo-2{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
 }
 
 .menu{
     width: 100%;
-    height: 50px;
+    height: 80px;
     background-color: black;
 }
 
 .menu li{
-    float: left;
-    font-size: 15px;
+    float: right;
+    font-size: 20px;
     list-style: none;
     margin: 10px;
-    padding:5px 0;
+    padding:15px 40px;
     color:white;
+}
+
+body {
+    background-color: rgba(191, 235, 250, 0.482);
 }
 
 .right_box{
     float:right;
     width:35%;
+    height: 100%;
 }
 
 .title_list{
     font-size: 25px;
     font-weight: bold;
     border-bottom: dotted 3px gray;
-    margin: 10px 0px 5px 0px;
+    margin: 20px 0px;
 }
 
-.contents li{
+.contents-1{
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+.contents-2 li{
     list-style: none;
+    font-size: 20px;
 }
 
 .left_box{
     float:left;
     width:60%;
-    margin-bottom: 20px;
 }
 
 .title{
@@ -45,45 +63,35 @@
     font-weight: bold;
     border-left: solid 3px black;
     border-bottom: double 3px gray;
-    margin: 10px 0px 5px 0px;
-    padding-left: 5px;
+    margin: 10px 20px 5px 20px;
+    padding-left: 10px;
 }
-
 
 .description{
-    line-height: 3;
-    font-size: 15px;
+    padding: 10px 0px 20px 20px;
+    font-size: 20px;
 }
 
-.description img{
-    display: block;
-    width:100%;
-    height:450px;
+.profile{
+    width:50%;
+    height: 50%;
 }
 
-.box2{
-    width:100%;
-    text-align: center;
-    background-color: lightgray;
+.title-2{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0px 0px 0px;
+    margin-bottom: 0px;
 }
 
-.box2 img{
-    width: 160px;
-    height: 140px;
-    margin:10px 10px -10px 10px;
+.qualification li{
+    list-style: none;
+    font-size: 20px;
 }
-
-.box2 p{
-    margin:10px 10px 5px 10px;
-}
-
-.box2 .box2_pic{
-    display: inline-block;
-}
-
 
 footer{
     clear: left;
+    position: absolute;
     width:100%;
     height:30px;
     bottom: 0px;
